@@ -1,0 +1,47 @@
+/* regole generali pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header {
+    height: 60px;
+    background-color: #ff6900;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* regole barra navigazione dentro header */
+header nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li img {
+    width: 90px;
+}
+
+.col-genre, .col-icons {
+    display: flex;
+}
+
+.col-genre div, .col-icons div {
+    padding: 0 7px;
+}
