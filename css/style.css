@@ -144,10 +144,12 @@ main section {
     position: absolute;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 
 .cuore:hover {
     color: red;
+    cursor: pointer;
 }
 
 /* regole footer */
