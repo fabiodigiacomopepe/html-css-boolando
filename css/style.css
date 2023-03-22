@@ -35,7 +35,7 @@ ul li {
     list-style-type: none;
 }
 
-ul li img {
+ul li a img {
     width: 90px;
 }
 
@@ -47,8 +47,13 @@ ul li img {
     display: flex;
 }
 
-.col-genre div, .col-icons div {
+.col-genre a, .col-icons a {
     padding: 0 7px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* regole sezione main */
@@ -172,9 +177,17 @@ footer {
     font-size: 9px;
 }
 
+.footer-container ul li a {
+    color: white;
+}
+
 .footer-container .fot-icons li {
     margin-right: 8px;
     font-size: 15px;
+}
+
+.footer-container .fot-icons li a {
+    color: white;
 }
 
 .text-bold-footer {
