@@ -141,6 +141,10 @@ main section {
     left: 0;
 }
 
+.cuore:hover {
+    color: red;
+}
+
 /* regole footer */
 footer {
     background-color: #1a1a1a;
