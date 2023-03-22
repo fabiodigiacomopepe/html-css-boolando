@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
 /* regole header */
 header {
     height: 60px;
