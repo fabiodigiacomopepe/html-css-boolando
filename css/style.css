@@ -16,6 +16,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 /* regole barra navigazione dentro header */
@@ -44,4 +45,80 @@ ul li img {
 
 .col-genre div, .col-icons div {
     padding: 0 7px;
+}
+
+/* regole sezione main */
+main section {
+    width: 80%;
+    margin: 100px auto 0; /* 60px di height + 40px di margin "naturale" */
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+#second-section {
+    margin: 35px auto;
+}
+
+.col-main {
+    width: calc(100% / 3);
+}
+
+.container-foto {
+    position: relative;
+}
+
+.col-main img {
+    width: 100%;
+}
+
+.sconto-eco {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+}
+
+.sconto, .eco {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sconto {
+    background-color: red;
+}
+
+.eco {
+    background-color: green;
+}
+
+.cuore {
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 3px 10px;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.text-barred {
+    text-decoration: line-through;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1;
 }
