@@ -39,6 +39,10 @@ ul li img {
     width: 90px;
 }
 
+.col-genre {
+    font-weight: bold;
+}
+
 .col-genre, .col-icons {
     display: flex;
 }
@@ -121,4 +125,41 @@ main section {
 .description {
     font-size: 13px;
     line-height: 1;
+}
+
+/* regole footer */
+footer {
+    background-color: #1a1a1a;
+    height: 85px;
+    width: 100%;
+}
+
+.footer-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.footer-container ul {
+    display: flex;
+}
+
+.footer-container ul li {
+    margin-right: 8px;
+    font-size: 9px;
+}
+
+.footer-container .fot-icons li {
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.text-bold-footer {
+    font-weight: bold;
+    font-size: 12px;
 }
